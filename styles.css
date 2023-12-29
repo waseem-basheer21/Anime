@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/images/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+}
+
+.heading {
+  color: peachpuff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.akatsuki {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.akatsuki-image1 {
+  height: 400px;
+}
+
+.akatsuki-text {
+  margin: 20px 0 20px 0;
+  width: 600px;
+}
+
+.ak-h1 {
+  padding: 15px 10px;
+  color: peachpuff;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: justify;
+}
+
+.ak-h2 {
+  padding: 15px 10px;
+  color: peachpuff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.ak-para {
+  padding: 0 10px;
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.image {
+  height: 500px;
+}
+
+.text {
+  margin: 20px 0 20px 0;
+  width: 600px;
+}
+
+.text > h1 {
+  padding: 15px 10px;
+  color: #FE0000;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+span {
+  color: peachpuff;
+}
+
+.para {
+  padding: 10px 0;
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.konan {
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.itachi {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.kisame {
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.deidara {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.sasori {
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.kakuzu {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.hidan {
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.orochimaru {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.zetsu {
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.obito {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+.pain {
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #191919;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  .akatsuki {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .akatsuki-text {
+    width: auto;
+  }
+
+  .akatsuki-image1 {
+    height: 180px;
+  }
+
+  .akatsuki-image {
+    margin-top: 40px;
+  }
+
+  .image {
+    margin-top: 30px;
+    height: 250px;
+  }
+
+  .konan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .itachi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kisame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .deidara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sasori {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kakuzu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hidan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .orochimaru {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .zetsu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .obito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    text-align: center;
+    width: auto;
+  }
+
+  .text > h1 {
+    font-size: 25px;
+  }
+}
